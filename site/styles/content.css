@@ -381,7 +381,7 @@ footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(3
 */
 footer div.inner_wrap div.testimonials_container  a.arrow_next {
 	position: absolute;
-	top: 320px;
+	top: 310px;
 	left: 160px;
 	background-image: url(../images/arrow.svg);
 	background-repeat: no-repeat;
@@ -397,12 +397,15 @@ footer div.inner_wrap div.testimonials_container  a.arrow_next:hover {
 
 footer div.inner_wrap div.testimonials_container  a.arrow_previous {
 	position: absolute;
-	top: 320px;
+	top: 310px;
 	right: 140px;
 	background-image: url(../images/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 70px 70px;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
 	transform:rotate(180deg);
 	height: 70px;
 	width: 70px;
