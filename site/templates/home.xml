@@ -5,16 +5,132 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
+			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
-			<cms:module
-				name="contact_form"
-				action="show"
-				text_id="test"
-			/>
+			<!-- Top Section of the Site -->
+			<header>
+					<div class="inner_wrap">
+						<cms:module
+									name="articles"
+									action="show"
+									text_id="header_article"
+									template="parts/article_header.xml"
+									/>
+
+					</div>
+			</header>
+
+			<div class="section_two">
+					<div class="inner_wrap">
+						<cms:module
+									name="articles"
+									action="show"
+									text_id="section2_article"
+									template="parts/article_header.xml"
+									/>
+					</div>
+			</div>
+
+			<div class="section_three">
+					<div class="inner_wrap">
+						<cms:module
+									name="articles"
+									action="show"
+									text_id="work_article"
+									template="parts/article_header.xml"
+									/>
+						<cms:module
+									name="articles"
+									action="show"
+									text_id="yuval_article"
+									template="parts/article_header.xml"
+									/>
+					</div>
+			</div>
+
+			<div class="video_section">
+					<div class="inner_wrap">
+						<div class="video_wrap">
+							<cms:module
+									name="youtube"
+									action="show"
+									text_id="yuval_video"
+									embed="1"
+									width="1100"
+									height="580"
+									target="video_player"
+									theme="dark"
+									autohide="1"
+									/>
+						</div>
+
+					</div>
+			</div>
+
+			<!-- Bottom part of the site -->
+			<footer>
+					<div class="inner_wrap">
+						<cms:module
+									name="articles"
+									action="show"
+									text_id="footer_article"
+									template="parts/article_header.xml"
+									/>
+						<a
+									href="'tel:'.urlencode(Language::getText('phone'))"
+									cms:eval="href"
+									class="phone"
+									>
+									<cms:text constant="phone"/>
+						</a>
+						<div class="form_wrap">
+									<span><cms:text constant="form_title"/></span>
+									<cms:module
+							 				name="contact_form"
+							 				action="show"
+							 				text_id="contact_form"
+					 				/>
+
+						</div>
+
+						<div class="testimonials_container">
+									<h2><cms:text constant="testimonial_title"/></h2>
+									<span><cms:text constant="testimonial_sub_title"/></span>
+									<cms:module
+										name="tips"
+										action="show_list"
+										template="parts/testimonials.xml"
+									/>
+									<a
+									 href="javascript:void(0);"
+									 class="arrow_next"
+									 >
+									</a>
+									<a
+									 href="javascript:void(0);"
+									 class="arrow_previous"
+									 >
+									</a>
+
+						</div>
+					</div>
+
+					<div class="copyright">
+									<div class="inner_copyright">
+										<span><cms:text constant="copyright"/></span>
+									</div>
+									<div class="inner_copyright_heb">
+										<span><cms:text constant="hebrew_right"/></span>
+									</div>
+					</div>
+			</footer>
+
+
+
+
 		</body>
 	</html>
 </document>
