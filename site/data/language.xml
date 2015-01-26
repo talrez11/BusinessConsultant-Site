@@ -2,7 +2,7 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<language name="Hebrew" short="he" rtl="yes" default="yes">
-		<constant name="site_title">Site title</constant>
+		<constant name="site_title">Business Consultant</constant>
 		<constant name="phone">09-7654321</constant>
 		<constant name="form_title">למידע נוסף מלאו את הטופס</constant>
 		<constant name="send">שלח טופס</constant>
