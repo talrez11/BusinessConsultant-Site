@@ -117,7 +117,7 @@
 
 						</div>
 					</div>
-
+					<cms:desktop>
 					<div class="copyright">
 									<div class="inner_copyright">
 										<span><cms:text constant="copyright"/></span>
@@ -126,6 +126,17 @@
 										<span><cms:text constant="hebrew_right"/></span>
 									</div>
 					</div>
+					</cms:desktop>
+					<cms:mobile>
+					<div class="copyright">
+									<div class="inner_copyright_heb">
+										<span><cms:text constant="hebrew_right"/></span>
+									</div>
+									<div class="inner_copyright">
+										<span><cms:text constant="copyright"/></span>
+									</div>
+					</div>
+					</cms:mobile>
 			</footer>
 
 
