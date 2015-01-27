@@ -177,13 +177,16 @@ div.video_section div.inner_wrap iframe {
 
 footer {
 	display: block;
-	background-color: white;
+	background-image: url(../images/mobile-footer-background.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	height:1700px;
 }
 
 footer div.inner_wrap {
 	display: block;
 	text-align: center;
-	padding-top: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 
@@ -247,7 +250,7 @@ footer div.inner_wrap a:hover {
 
 footer div.inner_wrap div.form_wrap {
 	display: block;
-	padding-top: 20px;
+	padding-top: 240px;
 }
 
 footer div.inner_wrap div.form_wrap > span {
@@ -268,7 +271,6 @@ footer div.inner_wrap div.form_wrap form label span {
 	display:block;
 	padding: 10px;
 	height: 40px;
-	background-color: white;
 	font-size: 1.4em;
 
 }
