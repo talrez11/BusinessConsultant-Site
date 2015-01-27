@@ -427,7 +427,9 @@ footer div.copyright {
 footer div.copyright div.inner_copyright {
 	display: inline-block;
 	vertical-align: top;
-	width: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 500px;
 	padding-left: 60px;
 	margin-left: auto;
 	margin-right: auto;
@@ -437,7 +439,7 @@ footer div.copyright div.inner_copyright {
 	background-size: auto 50px;
 	text-align: left;
 	direction: ltr;
-	color:white;
+	color: white;
 
 }
 
@@ -506,6 +508,11 @@ div.section_two div.inner_wrap article h2 {
 	font-size: 2.3em;
 }
 
+div.section_three {
+	background-image: url(../images/background-03padf.jpg);
+}
+
+
 div.section_three div.inner_wrap article:first-of-type {
 	width: 530px;
 }
@@ -522,11 +529,24 @@ div.section_three div.inner_wrap article:last-of-type h2 {
 	font-size: 2.3em;
 }
 
+div.video_section {
+	background-image: url(../images/background-04padf.jpg);
+}
+
+div.video_section div.inner_wrap {
+	padding-top: 245px;
+}
+
 div.video_section div.inner_wrap div.video_wrap iframe {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100%;
+	width: 70%;
+	height: 491px;
+}
+
+footer {
+	background-image: url(../images/background-05pad.jpg);
 }
 
 footer div.inner_wrap div.form_wrap form label input {
