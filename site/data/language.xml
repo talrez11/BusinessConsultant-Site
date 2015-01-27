@@ -8,7 +8,7 @@
 		<constant name="send">שלח טופס</constant>
 		<constant name="testimonial_title">בעלי עסקים מספרים</constant>
 		<constant name="testimonial_sub_title">קומץ מייצג של מקרים אמיתיים, כאן בישראל לצורך התרשמות</constant>
-		<constant name="copyright">Designed and developed by<![CDATA[<a href="http://way2cu.com">Way2cu</a>.<br>]]>promoted by <![CDATA[<a href="http://oxerve.com">Oxerve</a>.<br>]]> All rights reserved.</constant>
+		<constant name="copyright">Designed and developed by<![CDATA[<a href="http://way2cu.com">Way2cu</a>.]]>Promoted by <![CDATA[<a href="http://oxerve.com">Oxerve</a>.<br>]]> All rights reserved.</constant>
 		<constant name="hebrew_right">מדיניות פרטיות משתמשים</constant>
 	</language>
 </document>
