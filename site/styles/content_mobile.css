@@ -1,0 +1,470 @@
+/**
+ * Main Style Sheet
+ * BusinessConsultant-Site
+ *
+ * Copyright (c) 2014. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+div.inner_wrap {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+header {
+	display: block;
+	background-image: url(../images/mobile-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	height: 560px;
+}
+
+header div.inner_wrap {
+	display: block;
+	padding-top: 220px;
+	padding-bottom: 15px;
+}
+
+header div.inner_wrap article {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+
+}
+
+header div.inner_wrap article h2 {
+	display: block;
+	font-size: 1.9em;
+	font-weight: 400;
+	text-align: right;
+}
+
+header div.inner_wrap article p {
+	display: block;
+	font-size: 1em;
+	font-weight: 600;
+	text-align: right;
+}
+/*
+	Section Two
+*/
+
+div.section_two {
+	display: block;
+	background-image: url(../images/mobile-background-2.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	height: 560px;
+
+}
+
+div.section_two div.inner_wrap {
+	  display: block;
+	  padding-top: 215px;
+}
+
+div.section_two div.inner_wrap article {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+div.section_two div.inner_wrap article h2 {
+	display: block;
+	font-size: 1.9em;
+	font-weight: 400;
+	text-align: right;
+}
+
+div.section_two div.inner_wrap article p {
+	display: block;
+	font-size: 1em;
+	font-weight: 600;
+	text-align: right;
+}
+
+/*
+	Section Three
+*/
+
+div.section_three {
+	display: block;
+	background-image: url(../images/mobile-background-3.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	height: 920px;
+}
+
+div.section_three div.inner_wrap {
+	display: block;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+div.section_three div.inner_wrap article:first-of-type {
+	display: block;
+	text-align: right;
+}
+
+div.section_three div.inner_wrap article:first-of-type h2 {
+	display: block;
+	font-size: 1.9em;
+	font-weight: 400;
+	text-align: right;
+}
+
+div.section_three div.inner_wrap article:first-of-type p {
+	display: block;
+	font-size: 1em;
+	font-weight: 600;
+	text-align: right;
+}
+
+div.section_three div.inner_wrap article:last-of-type {
+	display: block;
+	text-align: right;
+
+}
+
+div.section_three div.inner_wrap article:last-of-type h2 {
+	display: block;
+	font-size: 1.9em;
+	font-weight: 400;
+	text-align: right;
+}
+
+div.section_three div.inner_wrap article:last-of-type p {
+	display: block;
+	font-size: 1em;
+	font-weight: 600;
+	text-align: right;
+}
+
+/*
+	Video Section
+*/
+
+div.video_section {
+	display: block;
+}
+
+div.video_section div.inner_wrap {
+	display: block;
+	text-align: center;
+}
+
+div.video_section div.inner_wrap {
+	width: 100%;
+	height: 100%;
+}
+
+div.video_section div.inner_wrap iframe {
+	width: 100%;
+	height: 500px;
+}
+
+/*
+	Footer Section
+*/
+
+footer {
+	display: block;
+	background-color: white;
+}
+
+footer div.inner_wrap {
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+footer div.inner_wrap article {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer div.inner_wrap article h2 {
+	display: block;
+	font-size: 1.9em;
+	font-weight: 400;
+	text-align: center;
+}
+
+footer div.inner_wrap article p{
+	display: block;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+/*phone link*/
+
+footer div.inner_wrap > a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 40px;
+	width: 200px;
+	background :url(../images/icon-phone.svg),
+	linear-gradient(0deg, rgba(22, 166, 30, 1) 0%, rgba(118, 204, 30, 1) 100%);
+	background-repeat: no-repeat;
+	background-position: 30px center,top left;
+	background-size: 35px 35px,100%;
+	border:1px solid #16A61E;
+	border-radius : 5px;
+	font-size: 1.6em;
+	color: white;
+	text-decoration: none;
+	transition:all 0.5s;
+
+}
+
+footer div.inner_wrap a:hover {
+	background :url(../images/icon-phone.svg),
+	linear-gradient(0deg, rgba(14, 102, 18, 1) 0%, rgba(88, 153, 22, 1) 100%);
+	background-repeat: no-repeat;
+	background-position: 30px center,top left;
+	background-size: 35px 35px,100%;
+	border:1px solid #0E6612;
+}
+
+/*
+	form
+*/
+
+footer div.inner_wrap div.form_wrap {
+	display: block;
+	padding-top: 20px;
+}
+
+footer div.inner_wrap div.form_wrap > span {
+	display: block;
+	font-size: 1.6em;
+}
+
+footer div.inner_wrap div.form_wrap form {
+	display: block;
+	padding-top: 15px;
+}
+
+footer div.inner_wrap div.form_wrap form label {
+	display:block;
+}
+
+footer div.inner_wrap div.form_wrap form label span {
+	display:block;
+	padding: 10px;
+	height: 40px;
+	background-color: white;
+	font-size: 1.4em;
+
+}
+
+footer div.inner_wrap div.form_wrap form label input {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 95%;
+	height: 40px;
+	border:1px solid #bcc2c6;
+	font-size: 1.4em;
+	transition:all 0.5s;
+}
+
+footer div.inner_wrap div.form_wrap form label input:focus {
+	border:1px solid #33485D;
+}
+
+footer div.inner_wrap div.form_wrap form div.controls {
+	display:block;
+	padding-top: 15px;
+}
+
+footer div.inner_wrap div.form_wrap form div.controls button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: linear-gradient(0deg, rgba(22, 166, 30, 1) 0%, rgba(118, 204, 30, 1) 100%);
+	padding: 10px;
+	width: 170px;
+	height: 62px;
+	font-size: 1.4em;
+	color:white;
+	border:1px solid #bcc2c6;
+	border-radius: 8px 8px 8px 8px;
+	cursor: pointer;
+	transition:all 0.5s;
+}
+
+footer div.inner_wrap div.form_wrap form div.controls button:hover {
+	background:linear-gradient(0deg, rgba(14, 102, 18, 1) 0%, rgba(88, 153, 22, 1) 100%);
+
+}
+
+footer div.inner_wrap div.testimonials_container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 700px;
+	position: relative;
+}
+
+footer div.inner_wrap div.testimonials_container > h2 {
+	display: block;
+	margin-bottom: 0px;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+footer div.inner_wrap div.testimonials_container > span {
+	display: block;
+	padding-bottom: 15px;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+footer div.inner_wrap div.testimonials_container div.testimonial {
+	position: absolute;
+	top:150px;
+	left: 50%;
+	margin-left: -150px;
+	width: 300px;
+	background-color:white;
+	border:1px solid #bcc2c6;
+	border-radius:15px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition:all 2s;
+}
+
+footer div.inner_wrap div.testimonials_container div.testimonial.visible {
+	opacity:1;
+}
+
+footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(1) {
+	display: block;
+	font-size: 1.4em;
+}
+
+footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(2) {
+	display: block;
+	font-size: 1.1em;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(3) {
+	display: block;
+	font-size: 1.0em;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 600;
+}
+
+/*
+	Testimonial contorls
+*/
+footer div.inner_wrap div.testimonials_container  a.arrow_next {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	background-image: url(../images/arrow_mobile.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 30px 30px;
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+	height: 30px;
+	width: 30px;
+}
+
+footer div.inner_wrap div.testimonials_container  a.arrow_next:hover {
+	border:none;
+}
+
+footer div.inner_wrap div.testimonials_container  a.arrow_previous {
+	position: absolute;
+	top: 90px;
+	right: 0px;
+	background-image: url(../images/arrow_mobile.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 30px 30px;
+	height: 30px;
+	width: 30px;
+}
+
+footer div.inner_wrap div.testimonials_container  a.arrow_previous:hover {
+	border:none;
+}
+
+footer div.copyright {
+	display: block;
+	text-align: center;
+	background-color: black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+footer div.copyright div.inner_copyright {
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 85px;
+	background-image: url(../images/way2cu-logo.svg);
+	background-repeat: no-repeat;
+	background-position: 35px center;
+	background-size:40px 40px;
+	text-align: center;
+	direction: ltr;
+	color: white;
+
+}
+
+footer div.copyright div.inner_copyright_heb {
+	display:block;
+	font-size: 1.2em;
+	color: white;
+}
+
+footer div.copyright div.inner_copyright span {
+	display: block;
+	text-align: left;
+	font-size: 0.8em;
+
+}
+
+footer div.copyright div.inner_copyright span a {
+	padding-left: 5px;
+}
+
+footer div.copyright div.inner_copyright span a:nth-of-type(1) {
+	color:#5bc2d8;
+}
+
+footer div.copyright div.inner_copyright span a:nth-of-type(2) {
+	color:#fbc926;
+}
+
+
+
