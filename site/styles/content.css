@@ -177,9 +177,8 @@ footer {
 	display: block;
 	background-image: url(../images/background-05.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center top;
 	background-size: auto 1184px;
-	height: 1184px;
 }
 
 footer div.inner_wrap {
@@ -475,7 +474,7 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 */
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
-	
+
 body{
 	width: auto;
 }
