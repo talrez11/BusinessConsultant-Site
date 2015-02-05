@@ -322,7 +322,7 @@ footer div.inner_wrap div.form_wrap form div.controls button:hover {
 footer div.inner_wrap div.testimonials_container {
 	display: block;
 	padding-top: 30px;
-	height: 500px;
+	height: 580px;
 	position: relative;
 }
 
@@ -348,6 +348,9 @@ footer div.inner_wrap div.testimonials_container div.testimonial {
 	padding-left: 15px;
 	padding-right: 15px;
 	width: 700px;
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 150px 150px;
 	background-color:white;
 	border:1px solid #bcc2c6;
 	border-radius:15px;
@@ -358,6 +361,16 @@ footer div.inner_wrap div.testimonials_container div.testimonial {
 
 footer div.inner_wrap div.testimonials_container div.testimonial.visible {
 	opacity:1;
+}
+
+footer div.inner_wrap div.testimonials_container div.testimonial p {
+	display: block;
+	font-size: 1.1em;
+	margin: 0px;
+	padding: 10px 0px;
+	padding-right: 170px;
+	padding-left: 10px;
+	text-align: right;
 }
 
 footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(1) {
