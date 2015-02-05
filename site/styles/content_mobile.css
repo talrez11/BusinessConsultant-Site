@@ -348,6 +348,10 @@ footer div.inner_wrap div.testimonials_container div.testimonial {
 	margin-left: -150px;
 	width: 300px;
 	background-color:white;
+	background-repeat: no-repeat;
+	background-position: center top 10px;
+	padding-top: 170px;
+	background-size: 150px 150px;
 	border:1px solid #bcc2c6;
 	border-radius:15px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
