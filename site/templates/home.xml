@@ -22,7 +22,7 @@
 
 					</div>
 			</header>
-			
+
 			<div class="section_two">
 					<div class="inner_wrap">
 						<cms:module
@@ -100,10 +100,12 @@
 									<h2><cms:text constant="testimonial_title"/></h2>
 									<span><cms:text constant="testimonial_sub_title"/></span>
 									<cms:module
-										name="tips"
-										action="show_list"
+										name="gallery"
+										action="show_image_list"
+										group="home_gallery"
+										random="1"
 										template="parts/testimonials.xml"
-									/>
+										/>
 									<a
 									 href="javascript:void(0);"
 									 class="arrow_next"
