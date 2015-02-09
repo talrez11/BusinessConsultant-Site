@@ -323,7 +323,7 @@ footer div.inner_wrap div.testimonials_container {
 	padding-top: 15px;
 	padding-left: 15px;
 	padding-right: 15px;
-	height: 700px;
+	padding-bottom: 20px;
 	position: relative;
 }
 
@@ -341,12 +341,23 @@ footer div.inner_wrap div.testimonials_container > span {
 	font-weight: 600;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial {
-	position: absolute;
-	top:150px;
-	left: 50%;
-	margin-left: -150px;
-	width: 300px;
+.img_as_list {
+	padding: 20px 0px;
+}
+
+.img_as_list span {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+	background-position: center top;
+}
+
+footer div.inner_wrap div.testimonials_container  div.tips_container div.testimonial {
+	display: none;
 	background-color:white;
 	background-repeat: no-repeat;
 	background-position: center top 10px;
@@ -355,27 +366,25 @@ footer div.inner_wrap div.testimonials_container div.testimonial {
 	border:1px solid #bcc2c6;
 	border-radius:15px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
-	opacity: 0;
-	transition:all 2s;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial.visible {
-	opacity:1;
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial.visible {
+	display: block;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(1) {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p:nth-of-type(1) {
 	display: block;
 	font-size: 1.4em;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(2) {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p:nth-of-type(2) {
 	display: block;
 	font-size: 1.1em;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(3) {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p:nth-of-type(3) {
 	display: block;
 	font-size: 1.0em;
 	padding-left: 15px;
@@ -446,7 +455,7 @@ footer div.copyright div.inner_copyright {
 }
 
 footer div.copyright div.inner_copyright_heb {
-	display:block;
+	display:none;
 	font-size: 1.2em;
 	color: white;
 }
