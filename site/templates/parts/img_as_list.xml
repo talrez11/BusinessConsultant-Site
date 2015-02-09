@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../../units/schema/template.dtd">
+<document>
+	<span style="'background-image: url('.$params['image'].')'" cms:eval="style">
+	</span>
+</document>
