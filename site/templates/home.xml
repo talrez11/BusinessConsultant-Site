@@ -99,11 +99,23 @@
 						<div class="testimonials_container">
 									<h2><cms:text constant="testimonial_title"/></h2>
 									<span><cms:text constant="testimonial_sub_title"/></span>
+									<div class="img_as_list">
+										<cms:module
+											name="gallery"
+											action="show_image_list"
+											group="home_gallery"
+											random="1"
+											limit="6"
+											template="parts/img_as_list.xml"
+											/>
+									</div>
+									<div class="tips_container">
 									<cms:module
 										name="gallery"
 										action="show_image_list"
 										group="home_gallery"
 										random="1"
+										limit="6"
 										template="parts/testimonials.xml"
 										/>
 									<a
@@ -116,6 +128,7 @@
 									 class="arrow_previous"
 									 >
 									</a>
+								</div>
 
 						</div>
 					</div>
