@@ -322,7 +322,7 @@ footer div.inner_wrap div.form_wrap form div.controls button:hover {
 footer div.inner_wrap div.testimonials_container {
 	display: block;
 	padding-top: 30px;
-	height: 580px;
+	height: 770px;
 	position: relative;
 }
 
@@ -340,14 +340,33 @@ footer div.inner_wrap div.testimonials_container > span {
 	font-weight: 500;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial {
-	position: absolute;
-	top:200px;
-	left: 50%;
-	margin-left: -350px;
+.img_as_list {
+	padding: 20px 0px;
+}
+
+.img_as_list span {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+	height: 150px;
+	margin: 0px 10px;
+	background-repeat: no-repeat;
+	background-size: auto 150px;
+	background-position: center top;
+}
+
+
+.tips_container {
+	padding-top: 50px;
+	position: relative;
+}
+
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial {
+	display: none;
 	padding-left: 15px;
 	padding-right: 15px;
 	width: 700px;
+	margin: 0px auto 20px auto;
 	background-repeat: no-repeat;
 	background-position: right 10px center;
 	background-size: 150px 150px;
@@ -355,15 +374,14 @@ footer div.inner_wrap div.testimonials_container div.testimonial {
 	border:1px solid #bcc2c6;
 	border-radius:15px;
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
-	opacity: 0;
 	transition:all 2s;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial.visible {
-	opacity:1;
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial.visible {
+	display: block;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p {
 	display: block;
 	font-size: 1.1em;
 	margin: 0px;
@@ -373,17 +391,17 @@ footer div.inner_wrap div.testimonials_container div.testimonial p {
 	text-align: right;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(1) {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p:nth-of-type(1) {
 	display: block;
 	font-size: 1.4em;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(2) {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p:nth-of-type(2) {
 	display: block;
 	font-size: 1.1em;
 }
 
-footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(3) {
+footer div.inner_wrap div.testimonials_container div.tips_container div.testimonial p:nth-of-type(3) {
 	display: block;
 	font-size: 1.0em;
 	font-weight: 600;
@@ -393,7 +411,7 @@ footer div.inner_wrap div.testimonials_container div.testimonial p:nth-of-type(3
 */
 footer div.inner_wrap div.testimonials_container  a.arrow_next {
 	position: absolute;
-	top: 310px;
+	top: 160px;
 	left: 160px;
 	background-image: url(../images/arrow.svg);
 	background-repeat: no-repeat;
@@ -409,8 +427,8 @@ footer div.inner_wrap div.testimonials_container  a.arrow_next:hover {
 
 footer div.inner_wrap div.testimonials_container  a.arrow_previous {
 	position: absolute;
-	top: 310px;
-	right: 140px;
+	top: 160px;
+	right: 120px;
 	background-image: url(../images/arrow.svg);
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -456,7 +474,7 @@ footer div.copyright div.inner_copyright {
 }
 
 footer div.copyright div.inner_copyright_heb {
-	display: inline-block;
+	display: none;
 	vertical-align: top;
 	padding-top: 15px;
 	padding-right: 60px;
@@ -488,94 +506,94 @@ footer div.copyright div.inner_copyright span a:nth-of-type(2) {
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
 
-body{
-	width: auto;
-}
+	body{
+		width: auto;
+	}
 
-div.inner_wrap {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
-	position: relative;
-}
+	div.inner_wrap {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: auto;
+		position: relative;
+	}
 
-header div.inner_wrap {
-	padding-right: 20px;
-}
+	header div.inner_wrap {
+		padding-right: 20px;
+	}
 
-header div.inner_wrap article {
-	width: 530px;
-}
+	header div.inner_wrap article {
+		width: 530px;
+	}
 
-header div.inner_wrap article h2 {
-	margin-top: 0px;
-	font-size: 2.3em;
-}
+	header div.inner_wrap article h2 {
+		margin-top: 0px;
+		font-size: 2.3em;
+	}
 
-div.section_two div.inner_wrap article {
-	width: 500px;
-}
+	div.section_two div.inner_wrap article {
+		width: 500px;
+	}
 
-div.section_two div.inner_wrap article h2 {
-	font-size: 2.3em;
-}
+	div.section_two div.inner_wrap article h2 {
+		font-size: 2.3em;
+	}
 
-div.section_three {
-	background-image: url(../images/background-03padf.jpg);
-}
+	div.section_three {
+		background-image: url(../images/background-03padf.jpg);
+	}
 
 
-div.section_three div.inner_wrap article:first-of-type {
-	width: 530px;
-}
+	div.section_three div.inner_wrap article:first-of-type {
+		width: 530px;
+	}
 
-div.section_three div.inner_wrap article:first-of-type h2 {
-	font-size: 2.3em;
-}
+	div.section_three div.inner_wrap article:first-of-type h2 {
+		font-size: 2.3em;
+	}
 
-div.section_three div.inner_wrap article:last-of-type {
-	width: 530px;
-}
+	div.section_three div.inner_wrap article:last-of-type {
+		width: 530px;
+	}
 
-div.section_three div.inner_wrap article:last-of-type h2 {
-	font-size: 2.3em;
-}
+	div.section_three div.inner_wrap article:last-of-type h2 {
+		font-size: 2.3em;
+	}
 
-div.video_section {
-	background-image: url(../images/background-04padf.jpg);
-}
+	div.video_section {
+		background-image: url(../images/background-04padf.jpg);
+	}
 
-div.video_section div.inner_wrap {
-	padding-top: 245px;
-}
+	div.video_section div.inner_wrap {
+		padding-top: 245px;
+	}
 
-div.video_section div.inner_wrap div.video_wrap iframe {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-	height: 491px;
-}
+	div.video_section div.inner_wrap div.video_wrap iframe {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+		height: 491px;
+	}
 
-footer {
-	background-image: url(../images/background-05pad.jpg);
-}
+	footer {
+		background-image: url(../images/background-05pad.jpg);
+	}
 
-footer div.inner_wrap div.form_wrap form label input {
-	width: 150px;
-}
+	footer div.inner_wrap div.form_wrap form label input {
+		width: 150px;
+	}
 
-footer div.inner_wrap div.form_wrap form div.controls button {
-	width: 120px;
-}
+	footer div.inner_wrap div.form_wrap form div.controls button {
+		width: 120px;
+	}
 
-footer div.inner_wrap div.testimonials_container a.arrow_next {
-	left: 10px;
-}
+	footer div.inner_wrap div.testimonials_container a.arrow_next {
+		left: 10px;
+	}
 
-footer div.inner_wrap div.testimonials_container a.arrow_previous {
-	right:10px;
-}
+	footer div.inner_wrap div.testimonials_container a.arrow_previous {
+		right:10px;
+	}
 
 }
